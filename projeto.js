@@ -10,7 +10,7 @@ const sequelize = new Sequelize("banco_projeto", "root", "Marcela2612!", {
 
 //Routes
 app.get('/', (req, res)=>{
-    res.sendFile(__dirname+"/views/layouts/main.html")
+    res.sendFile(__dirname+"main.html")
 })
 
 /*

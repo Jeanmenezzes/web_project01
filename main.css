@@ -1,0 +1,6 @@
+#image-profile-img{
+    border-radius: 50%;
+    object-fit:cover;
+    align-items: center;
+    width: 100%;
+}
